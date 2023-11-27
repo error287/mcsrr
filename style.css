@@ -1,0 +1,82 @@
+
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#name {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+#userstats-text {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Minecraft', sans-serif;
+}
+#userstats {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center; /* Center text within the container */
+  font-family: 'Inter', sans-serif;
+}
+
+
+.title {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-family: 'Minecraft', sans-serif;
+}
+
+#match-history-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: 'Minecraft', sans-serif;
+}
+
+#page-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+
+}
+
+#matches-container {
+  display: flex;
+  flex-direction: column;
+  /* Stack children vertically */
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+#error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
