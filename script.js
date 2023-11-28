@@ -40,6 +40,7 @@ function removepagecontentandposterror() {
     userstats_text.innerHTML = "";
     achievements_div.innerHTML = "";
     error.innerHTML = "Please make sure you entered a valid name or UUID.";
+    error.title = "User may have not created an account before";
 }
 
 
@@ -95,7 +96,7 @@ function getuserstats(name) {
 
                 const lastplaytime_ = date_.toLocaleString();
 
-                name_div.innerHTML = nickname;
+                name_div.innerHTML = `<img width="50px" height="50px" style="margin-right: 10px;" src="https://crafatar.com/avatars/${uuid}">` + nickname;
                 name_div.title = 'UUID: ' + uuid;
 
                 let connections_list = "";
