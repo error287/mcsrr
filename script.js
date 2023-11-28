@@ -38,6 +38,7 @@ function removepagecontentandposterror() {
     userstats.innerHTML = "";
     match_history_text.innerHTML = "";
     userstats_text.innerHTML = "";
+    achievements_div.innerHTML = "";
     error.innerHTML = "Please make sure you entered a valid name or UUID.";
 }
 
